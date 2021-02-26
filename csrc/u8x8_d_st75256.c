@@ -320,7 +320,7 @@ static const uint8_t u8x8_d_st75256_256x128_init_seq[] = {
   U8X8_CA( 0x0f0, 0x010 ),		/* monochrome mode  = 0x010*/
 
   //U8X8_C( 0x030 ),				/* select 00 commands */
-  U8X8_CAA( 0x81, 0x36, 0x05 ),	/* Volume control */
+  U8X8_CAA( 0x81, 0x10, 0x05 ),	/* Volume control */
 
   //U8X8_C( 0x030 ),				/* select 00 commands */
   U8X8_CA( 0x020, 0x00b ),		/* Power control: Regulator, follower & booster on */
